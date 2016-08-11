@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="SeM-LK-Wfy">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="4QZ-tf-Ij1">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="rvs-YO-Xpd">
+                                <rect key="frame" x="180" y="86" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="EcD-Zr-cn2"/>
+                                    <constraint firstAttribute="width" constant="240" id="Hmb-Vf-4g0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red Vožnje BG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1IG-qD-kwI">
+                                <rect key="frame" x="20" y="334" width="560" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="uH1-hY-iaM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Nikola Marković" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XK3-Lx-bLN">
+                                <rect key="frame" x="20" y="356" width="560" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="yHm-Sm-0QL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.60153556034482758" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XK3-Lx-bLN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="CDq-LN-g7A"/>
+                            <constraint firstItem="rvs-YO-Xpd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Cn8-ce-OD1"/>
+                            <constraint firstAttribute="trailing" secondItem="4QZ-tf-Ij1" secondAttribute="trailing" id="SPs-o0-VZH"/>
+                            <constraint firstAttribute="bottom" secondItem="4QZ-tf-Ij1" secondAttribute="bottom" id="U9g-IY-XeS"/>
+                            <constraint firstItem="1IG-qD-kwI" firstAttribute="top" secondItem="rvs-YO-Xpd" secondAttribute="bottom" constant="8" id="aQ6-e8-zYh"/>
+                            <constraint firstItem="1IG-qD-kwI" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="akK-FF-6kz"/>
+                            <constraint firstItem="rvs-YO-Xpd" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="22" id="cOZ-gj-R55"/>
+                            <constraint firstItem="XK3-Lx-bLN" firstAttribute="top" secondItem="rvs-YO-Xpd" secondAttribute="bottom" constant="30" id="eKZ-DF-LHo"/>
+                            <constraint firstItem="4QZ-tf-Ij1" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="nH8-nb-H7f"/>
+                            <constraint firstItem="1IG-qD-kwI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="p9V-fH-Ly7"/>
+                            <constraint firstAttribute="trailing" secondItem="XK3-Lx-bLN" secondAttribute="trailing" constant="20" id="sUn-wF-qCq"/>
+                            <constraint firstItem="4QZ-tf-Ij1" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="uHa-nb-3Ct"/>
+                            <constraint firstItem="XK3-Lx-bLN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uXj-aV-q1C"/>
+                            <constraint firstAttribute="trailing" secondItem="1IG-qD-kwI" secondAttribute="trailing" constant="20" id="zHy-tG-Msh"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="p9V-fH-Ly7"/>
+                                <exclude reference="uXj-aV-q1C"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="7gi-b4-uGX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1535" y="375"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="kbS-7L-rT2">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="SeM-LK-Wfy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="iBQ-Ej-Ohl">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="0.57254901960000004" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="0.57176943069999997" blue="0.16050297969999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="5bp-Ei-X8f" kind="relationship" relationship="viewControllers" id="JDS-To-eoy"/>
+                        <segue destination="VoT-5r-r6J" kind="relationship" relationship="viewControllers" id="r8q-kr-8cw"/>
+                        <segue destination="waV-mh-2as" kind="relationship" relationship="viewControllers" id="70V-5t-pmM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9oH-zb-znn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218" y="375"/>
+        </scene>
+        <!--Favorites-->
+        <scene sceneID="FWK-iy-dwj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5bp-Ei-X8f" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Favorites" image="Favorites-n" selectedImage="Favorites" id="bsj-Ji-QWd"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jXf-DP-jCh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="01J-lp-oVM" kind="relationship" relationship="rootViewController" id="TeG-eX-dDf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uW4-AT-Wna" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="865" y="375"/>
+        </scene>
+        <!--Dnevne-->
+        <scene sceneID="N6v-cx-2Pu">
+            <objects>
+                <viewController id="VoT-5r-r6J" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YCO-hg-30p"/>
+                        <viewControllerLayoutGuide type="bottom" id="h7d-OV-xjv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZUJ-KY-2QX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Dnevne" image="Dnevni-n" id="GSl-Uz-eFk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xfz-kB-ths" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218" y="1035"/>
+        </scene>
+        <!--Noćne-->
+        <scene sceneID="PNF-Id-DGf">
+            <objects>
+                <viewController id="waV-mh-2as" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mkE-1Q-JGs"/>
+                        <viewControllerLayoutGuide type="bottom" id="UTM-Pj-kh8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AqM-rZ-JZX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Noćne" image="Nocni-n" id="xZb-cw-1a2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ygr-hO-f89" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="865" y="1048"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Dnevni-n" width="32" height="32"/>
+        <image name="Favorites" width="32" height="32"/>
+        <image name="Favorites-n" width="32" height="32"/>
+        <image name="Image" width="370" height="370"/>
+        <image name="Logo" width="370" height="370"/>
+        <image name="Nocni-n" width="32" height="32"/>
+    </resources>
+</document>
